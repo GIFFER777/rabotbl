@@ -1,0 +1,9 @@
+let height = 1.83;
+let weight = 75;
+let fatMass = 0.8;
+
+let bodyMassIndex = Math.round(weight / (height ** 2));
+let fatPercent = Math.round((fatMass / weight) * 100);
+
+console.log(`The body mass index is ${bodyMassIndex}.`);
+console.log(`The percentage of body fat is ${fatPercent}%.`);

@@ -1,0 +1,15 @@
+let weight = 75;
+let height = 183;
+let age = 25;
+let activityRate = 1.725;
+
+let bmr = 88.362 + (13.397 * weight) + (4.799 * height) - (5.677 * age);
+let calorieRate = Math.round(bmr * activityRate);
+let proteins = Math.round(calorieRate * 0.4 / 4);
+let fats = Math.round(calorieRate * 0.25 / 9);
+let carbohydrates = Math.round(calorieRate * 0.35 / 4);
+
+console.log('Норма калорий: ' + calorieRate + ' ккал');
+console.log('Белки: ' + proteins + ' г');
+console.log('Жиры: ' + fats + ' г');
+console.log('Углеводы: ' + carbohydrates + ' г');

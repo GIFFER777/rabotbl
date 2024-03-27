@@ -1,0 +1,6 @@
+let routeDistance = 78;
+let averageSpeed = 80;
+let distance;
+distance = routeDistance * 1.6;
+let routeTime;
+routeTime = distance / averageSpeed;

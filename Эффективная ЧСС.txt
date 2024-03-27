@@ -1,0 +1,9 @@
+let age = 17;
+let pulseAtRest = 60;
+let intensity = 75;
+
+let maxHeartRate = 220 - age;
+let restAsPercentageOfMax = pulseAtRest / maxHeartRate * 100;
+let pulseAtWorkout = Math.round((maxHeartRate - pulseAtRest) * (intensity / 100) + pulseAtRest);
+
+console.log(`The heart rate during the workout is ${pulseAtWorkout} beats per minute.`);

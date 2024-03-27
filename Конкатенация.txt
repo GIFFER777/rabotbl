@@ -1,0 +1,5 @@
+let timeInMinutes = 60;
+let minutesLeftPerDay = 1440 - timeInMinutes;
+
+console.log(`Ты провел в колледже ${timeInMinutes} минут.`);
+console.log(`На этой неделе осталось примерно по ${minutesLeftPerDay} минут в день.`);

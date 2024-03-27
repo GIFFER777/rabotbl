@@ -1,0 +1,4 @@
+let timeInHours = prompt('сколько часов ты провел в колледже?');
+'Данные получены. Проведено '+timeInHours+' часов.';
+let timeInMinutes = timeInHours * 60;
+'На учебе проведено '+timeInMinutes+' минут!'

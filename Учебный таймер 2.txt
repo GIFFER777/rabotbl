@@ -1,0 +1,5 @@
+let time = 3;
+
+timeInMinutes = time * 60;
+
+console.log('На учебе проведено ' + timeInMinutes + ' минут!');

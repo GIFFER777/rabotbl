@@ -1,0 +1,8 @@
+let firstLeg = 300;
+let secondLeg = 700;
+
+let hypotenuse = Math.round(Math.sqrt(firstLeg ** 2 + secondLeg ** 2));
+let perimeter = firstLeg + secondLeg + hypotenuse;
+
+console.log(`The hypotenuse is ${hypotenuse} meters.`);
+console.log(`The perimeter is ${perimeter} meters.`);
